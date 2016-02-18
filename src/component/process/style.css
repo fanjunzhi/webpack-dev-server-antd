@@ -1,0 +1,21 @@
+#framework-biao {
+    min-height: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+.biao-process-content {
+    width: 1120px;
+    height: 100%;
+    min-height: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.biao-process-say {
+    margin-bottom: 20px;
+}
+
+.biao-process-say-detail {
+    text-indent: 2em;
+}

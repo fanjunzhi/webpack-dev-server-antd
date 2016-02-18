@@ -1,0 +1,39 @@
+.biao-header {
+    width: 100%;
+    height: 50px;
+    background-color: #3e4147;
+}
+
+.biao-header-content {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.biao-header-logo, .biao-header-ul, .biao-header-ul li {
+    height: 50px;
+    float: left;
+}
+
+.biao-header-logo {
+    width: 150px;
+    border: none;
+}
+
+.biao-header-ul {
+    list-style: none;
+}
+
+.biao-header-ul li {
+    width: 60px;
+    margin-left: 12px;
+    color: #cbcbcb;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.biao-header-ul li.active {
+    color: rgb(107, 195, 13);
+    background-color: rgb(51, 51, 51);
+}

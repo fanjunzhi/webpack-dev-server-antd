@@ -1,0 +1,19 @@
+.biao-footer {
+    width: 100%;
+    background-color: #CCC;
+}
+.biao-footer-content {
+    width: 1120px;
+    margin: 0 auto;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+}
+
+.biao-footer-content-title {
+    height: 50px;
+    line-height: 50px;
+}
+
+.biao-footer-content-detail {
+    line-height: 25px;
+}

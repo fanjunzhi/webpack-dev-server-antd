@@ -1,0 +1,71 @@
+.biao-article-list {
+    margin-bottom: 40px;
+}
+
+.biao-article-header {
+    width: 100%;
+    height: 60px;
+}
+
+.biao-article-header div {
+    float: left;
+}
+
+.biao-article-header-left {
+    margin-right: 10px;
+}
+
+.biao-article-header-right {
+    width: 1010px;
+}
+
+.biao-article-header-img {
+    width: 60px;
+    height: 60px;
+}
+
+.biao-article-header-right-first {
+    height: 30px;
+    line-height: 30px;
+}
+
+.biao-article-header-right-first div {
+    margin-right: 10px;
+}
+
+.biao-article-header-user-name {
+
+}
+
+.biao-article-header-right-second {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f4f5f7;
+}
+
+.biao-article-header-right-second div {
+    margin-right: 20px;
+}
+
+.biao-article-header-right-first div:first-child {
+    color: green;
+    cursor: pointer;
+}
+
+.biao-article-header-right-first div:nth-child(3) {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.biao-article-header-right-second div:first-child {
+    margin-left: 10px;
+}
+
+.biao-article-content {
+    margin-top: 10px;
+}
+
+.biao-article-content span {
+    text-indent: 2em;
+}
