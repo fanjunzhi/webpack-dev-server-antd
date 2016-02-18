@@ -3,14 +3,18 @@
 不是很完美，请轻吐槽。
 
 ## 开发命令
+```
 npm run dev
+```
 
 ## 上线命令
+```
 npm run build-release
+```
 
 ## 目录解析
 /src/entry/
-改目录下的文件会自动生成webpack的入口
+该目录下的文件会自动生成webpack的入口
 
 #前端项目架构
 *基于node.js 和 ant.design*
