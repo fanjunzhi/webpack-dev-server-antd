@@ -48,7 +48,7 @@ nodejs为例:
 
 ```
 exports.devserver = {
-    static_url_prefix: 'http://localhost:8086/s/' //这个指向webpack-dev-server服务器
+    static_url_prefix: 'http://localhost:9096/s/' //这个指向webpack-dev-server服务器
 };
 ```
 > 前端webpack.config.js添加一个启动模式:
@@ -56,7 +56,7 @@ exports.devserver = {
 ```
 "devserver": {
     "path": '../public',
-    "publicPath": 'http://localhost:8086/s/' //这个指向webpack-dev-server服务器
+    "publicPath": 'http://localhost:9096/s/' //这个指向webpack-dev-server服务器
 },
 ```
 
@@ -74,4 +74,4 @@ webpack-dev-server --port 9096 --progress --inline  --cfg.clean=false --cfg.runm
 > 浏览器输入下面连接访问,就可以达到浏览器自动刷新,尤其适合双屏开发，调整页面细节情况.
 
 ```
-http://localhost:9090/    
+http://localhost:9090/.../home.html（由于开发模式的资源文件是存在内存的，如果直接打开html文件会报错，采用localhost的方式打开html文件）    
