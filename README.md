@@ -1,5 +1,5 @@
 ## 声明
-该架构是我们公司现在开发的前端架构，基于开源和帮助的原则，故共享出来。
+该架构是我们现在开发的前端架构，基于开源和帮助的原则，故共享出来。
 不是很完美，请轻吐槽。
 基于架构做了一个示例：http://www.woaizm.com/home.html
 
@@ -15,7 +15,8 @@ npm run build-release
 
 ## 目录解析
 /src/entry/
-该目录下的文件会自动生成webpack的入口
+该目录下的文件会自动生成webpack的入口，并会打包成相应的js和css
+比如：EntryHome.jsx 打包成home.js,home.css
 
 #前端项目架构
 *基于node.js 和 ant.design*
