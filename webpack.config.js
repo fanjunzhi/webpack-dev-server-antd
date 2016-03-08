@@ -141,20 +141,16 @@ module.exports = {
                 test: /\.jsx$/,
                 loader: 'babel',
                 query: babelQuery
-            },
-            {
+            }, {
                 test: /\.css$/,
                 loader: ExtractTextPlugin.extract('css?sourceMap&-restructuring!' + 'autoprefixer-loader')
-            },
-            {
+            }, {
                 test: /\.less$/,
                 loader: ExtractTextPlugin.extract('css?sourceMap!' + 'autoprefixer-loader!' + 'less?{"sourceMap":true,"modifyVars":{}}')
-            },
-            {
+            }, {
                 test: /\.(png|jpg|jpeg|gif)(\?v=\d+\.\d+\.\d+)?$/i,
                 loader: 'url?limit=10000'
-            },
-            {
+            }, {
                 test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
                 loader: 'url?limit=10000&minetype=application/font-woff'
             }, {
@@ -163,10 +159,14 @@ module.exports = {
             }, {
                 test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
                 loader: 'url?limit=10000&minetype=application/octet-stream'
-            }, {test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file'}, {
+            }, {
+                test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file'}, {
                 test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
                 loader: 'url?limit=10000&minetype=image/svg+xml'
-            }
+            },{
+                test: /\.(wav|mp3)?$/,
+                loader: 'url-loader'
+            },
         ]
     },
     plugins: [
