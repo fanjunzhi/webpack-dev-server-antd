@@ -103,6 +103,9 @@ module.exports = {
      * import js或者jsx文件时，可以忽略后缀名
      * */
     resolve: {
+        alias: {
+            'moment': (0, join)(__dirname, './node_modules/moment/min/moment-with-locales.min.js')
+        }
         modulesDirectories: ['node_modules', (0, join)(__dirname, './node_modules')],
         extensions: ['', '.js', '.jsx']
     },
@@ -183,8 +186,8 @@ module.exports = {
         /*
          * 这样写法 fetch就可以全局使用了，各个不用单独import
          * */
-        new webpack.ProvidePlugin({
-            'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
-        })
+        // new webpack.ProvidePlugin({
+        //     'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
+        // })
     ]
 };
