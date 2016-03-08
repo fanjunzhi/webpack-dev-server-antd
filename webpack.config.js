@@ -21,7 +21,7 @@ var configs = {
     },
     "release": {//正式环境
         "path" : './dist/',
-        "publicPath": '//s.mp.cdn.xiaoyage.com/assets/'
+        "publicPath": '//s.cdn.xx.com/assets/'
     }
 };
 
